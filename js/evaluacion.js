@@ -14,7 +14,7 @@ function evaluarFV(){
     //Evaluamos la respuesta:
 
     /*Si la respuesta es igual a f:*/
-    if (p1 == 'F' || p1 == 'f'){
+    if (p1 == 'V' || p1 == 'v'){
         //Entonces la nota tendra un valor de 5
         nota += 5
     }
@@ -27,7 +27,7 @@ function evaluarFV(){
     p2 = document.getElementById("Pregunta2").value;
 
     //Si la respuesta es igual a v:
-    if (p2 == 'V' || p2 == 'v'){
+    if (p2 == 'F' || p2 == 'f'){
         nota += 5
     }
     else{
@@ -107,7 +107,7 @@ function evaluarFV(){
     p9 = document.getElementById("Pregunta9").value;
 
     //Si es f:
-    if (p9 == "V" || p9 == "v"){
+    if (p9 == "F" || p9 == "f"){
         nota += 5
     }
     else{
@@ -118,7 +118,7 @@ function evaluarFV(){
     p10 = document.getElementById("Pregunta10").value;
 
     //Si es f:
-    if (p10 == "V" || p10 == "v"){
+    if (p10 == "F" || p10 == "f"){
         nota += 5
     }
     else{
